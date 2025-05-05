@@ -6,5 +6,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.isdigit() :
+       return "satr faqat raqamlardan iborat"
+    else :
+        return "satrda raqamlardan boshqa qo'shimchalar bor" 
+    return s.isdigit()

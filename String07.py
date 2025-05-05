@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
+    if s.isalpha() :
+        return "satr faqat harflardan iborat"
+    else :
+        return "satr faqat harflardan iborat emas"
     
     return
